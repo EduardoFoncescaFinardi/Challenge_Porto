@@ -31,3 +31,7 @@ This project is licensed under the MIT License. Please review the license file f
 For any questions or inquiries regarding this project, please contact your-email@example.com.
 
 Note: This project was completed as part of an academic assignment and may contain specific requirements and constraints tailored to that context.
+
+´´´python
+print(x)
+´´´
