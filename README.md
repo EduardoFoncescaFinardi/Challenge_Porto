@@ -32,6 +32,6 @@ For any questions or inquiries regarding this project, please contact your-email
 
 Note: This project was completed as part of an academic assignment and may contain specific requirements and constraints tailored to that context.
 
-´´´python
+```python
 print(x)
-´´´
+```
