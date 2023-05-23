@@ -1,0 +1,17 @@
+Chatbot com node-red (Integração TSS e STT do ibm cloud)
+aqui está o token do telegram do bot caso precisem: 6082109732:AAGrHWa6qfYILQH9cMXQWACs-rScuBCPV7w
+nome: segurobikesbot
+Esse aqui é o chatbot (watson) com as intent, entities e dialog o que 
+a gente usa pra ter uma conversa, ambos os dois arquivos estão em json. 
+
+API key (assistant): 2sdiMFPKU6skkLOiG7NVontTUOW8buHDrf1bfnCKpWH5
+Url: https://api.au-syd.assistant.watson.cloud.ibm.com/instances/faec9365-de8b-44cb-b12f-0e77185b180e
+--------------------------
+API Key Speech to Text (STT): 
+Zk-muPRMOWEmicHND7LxwksnaU3Qq4B07b6RvfYnzRl-
+Url Speech to Text (STT): 
+https://api.au-syd.speech-to-text.watson.cloud.ibm.com/instances/0ed263ca-2360-4071-ba3c-5199e079b7a2
+API Key Text to Speech(TTS): 
+wqT042kVkIU2f5GFWgJVLmk9FGlgN6HetO8oicyNfPPL
+Url Text to Speech(TTS): 
+https://api.au-syd.text-to-speech.watson.cloud.ibm.com/instances/fa105387-751a-4b66-bce1-29eb6ba2fc50

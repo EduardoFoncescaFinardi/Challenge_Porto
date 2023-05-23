@@ -1,0 +1,848 @@
+{
+  "intents": [
+    {
+      "intent": "agradecimento",
+      "examples": [
+        {
+          "text": "entendi"
+        },
+        {
+          "text": "obg"
+        },
+        {
+          "text": "Ok"
+        },
+        {
+          "text": "Ok, obrigado"
+        },
+        {
+          "text": "valeu"
+        }
+      ],
+      "description": "caso o cliente agradeça em algum momento"
+    },
+    {
+      "intent": "ComprovanteDeCompra",
+      "examples": [
+        {
+          "text": "alterei"
+        },
+        {
+          "text": "mudei"
+        },
+        {
+          "text": "troquei a roda"
+        },
+        {
+          "text": "troquei as coroas"
+        },
+        {
+          "text": "troquei as correntes"
+        },
+        {
+          "text": "troquei o aro"
+        },
+        {
+          "text": "troquei o câmbio"
+        },
+        {
+          "text": "troquei o cubo"
+        },
+        {
+          "text": "troquei o guidão"
+        },
+        {
+          "text": "troquei o pedal"
+        },
+        {
+          "text": "troquei o quadro"
+        },
+        {
+          "text": "troquei o raio"
+        },
+        {
+          "text": "troquei o selim"
+        },
+        {
+          "text": "troquei os freios"
+        }
+      ],
+      "description": "Caso tenha personalizado a bike"
+    },
+    {
+      "intent": "ModeloDaBicicleta",
+      "examples": [
+        {
+          "text": "bicicleta de passeio"
+        },
+        {
+          "text": "bicicleta dobrável"
+        },
+        {
+          "text": "bicicleta elétrica"
+        },
+        {
+          "text": "bicicleta infantil"
+        },
+        {
+          "text": "bicicleta moutain bike"
+        },
+        {
+          "text": "bicicleta normal"
+        },
+        {
+          "text": "bicicleta speed"
+        },
+        {
+          "text": "bicicleta urbana"
+        },
+        {
+          "text": "bmx"
+        },
+        {
+          "text": "modelo padrão"
+        }
+      ],
+      "description": "Qual é o modelo da bicicleta (ciclismo profissional, infantil, bmx etc)"
+    },
+    {
+      "intent": "NaoHouveAlteracao",
+      "examples": [
+        {
+          "text": "não"
+        },
+        {
+          "text": "não fiz alterações"
+        },
+        {
+          "text": "nao troquei nada"
+        }
+      ],
+      "description": "Caso não tenha personalizado nada"
+    },
+    {
+      "intent": "NumDeSerie",
+      "examples": [
+        {
+          "text": "1234567890"
+        },
+        {
+          "text": "2345678901"
+        },
+        {
+          "text": "É 0987654321"
+        },
+        {
+          "text": "O meu numero é"
+        },
+        {
+          "text": "O numero de série da minha bicicleta é"
+        },
+        {
+          "text": "O número de serie da minha bike é"
+        },
+        {
+          "text": "o numero é 1234567890"
+        }
+      ],
+      "description": "Números de série da bike"
+    },
+    {
+      "intent": "Pergunta1",
+      "examples": [
+        {
+          "text": "eria me falar"
+        },
+        {
+          "text": "Gostaria de fazer um seguro na minha bicicleta"
+        },
+        {
+          "text": "Gostaria de por um seguro na minha bicicleta"
+        },
+        {
+          "text": "gostaria de saber"
+        },
+        {
+          "text": "gostaria de saber sobre o seguro da bicicleta"
+        },
+        {
+          "text": "gostaria de saber sobre o seguro da bike"
+        },
+        {
+          "text": "Oi queria fazer um seguro"
+        },
+        {
+          "text": "Olá, quero fazer um seguro"
+        },
+        {
+          "text": "poderia me dizer"
+        },
+        {
+          "text": "queria assegurar minha bicicleta"
+        },
+        {
+          "text": "Queria colocar um seguro"
+        },
+        {
+          "text": "Queria fazer um seguro"
+        },
+        {
+          "text": "queria por um seguro na bicicleta"
+        },
+        {
+          "text": "Queria realizar um seguro"
+        },
+        {
+          "text": "queria saber sobre"
+        },
+        {
+          "text": "seguro da bike"
+        },
+        {
+          "text": "seguro na bicicleta"
+        },
+        {
+          "text": "Seguro na bike"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ProcessandoFoto",
+      "examples": [
+        {
+          "text": "arquivo"
+        },
+        {
+          "text": "enviado"
+        },
+        {
+          "text": "Foto"
+        }
+      ],
+      "description": "Processo de avaliação das fotos"
+    },
+    {
+      "intent": "RespSemNumSerie",
+      "examples": [
+        {
+          "text": "?"
+        },
+        {
+          "text": "como descobrir o numero de serie"
+        },
+        {
+          "text": "Como eu sei"
+        },
+        {
+          "text": "Como faço pra saber?"
+        },
+        {
+          "text": "Como saber o numero"
+        },
+        {
+          "text": "mas eu nao sei"
+        },
+        {
+          "text": "onde esta localizado"
+        },
+        {
+          "text": "onde que fica?"
+        },
+        {
+          "text": "Onde que fica o numero"
+        },
+        {
+          "text": "oxi pq"
+        },
+        {
+          "text": "poderia me dizer onde fica?"
+        },
+        {
+          "text": "Por que?"
+        },
+        {
+          "text": "por que não?"
+        },
+        {
+          "text": "pq"
+        },
+        {
+          "text": "pq nao"
+        },
+        {
+          "text": "Sério?"
+        },
+        {
+          "text": "Serio mesmo?"
+        },
+        {
+          "text": "ue como eu vou saber"
+        }
+      ],
+      "description": "Continuação da conversa"
+    },
+    {
+      "intent": "SemComprovante",
+      "examples": [
+        {
+          "text": "estou sem os comprovantes"
+        },
+        {
+          "text": "Infelizmente não"
+        },
+        {
+          "text": "Joguei fora"
+        },
+        {
+          "text": "Não estou com o comprovante"
+        },
+        {
+          "text": "Não posso realizar o seguro sem eles?"
+        },
+        {
+          "text": "Não tenho"
+        },
+        {
+          "text": "não tenho os comprovantes"
+        },
+        {
+          "text": "Não tenho todos eles"
+        },
+        {
+          "text": "Perdi"
+        },
+        {
+          "text": "Perdi o comprovante"
+        }
+      ],
+      "description": "Caso não tenha o comprovante de compra"
+    },
+    {
+      "intent": "SemNumDeSerie",
+      "examples": [
+        {
+          "text": "Esqueci o numero"
+        },
+        {
+          "text": "minha bicicleta nao possui"
+        },
+        {
+          "text": "minha bicicleta nao tem"
+        },
+        {
+          "text": "minha bike nao possui"
+        },
+        {
+          "text": "não consigo"
+        },
+        {
+          "text": "Não possuo o número de série"
+        },
+        {
+          "text": "Não sei"
+        },
+        {
+          "text": "Não sei o número de série"
+        },
+        {
+          "text": "não tem"
+        },
+        {
+          "text": "não tenho"
+        },
+        {
+          "text": "Não tenho número de série"
+        },
+        {
+          "text": "Nao tenho o numero"
+        },
+        {
+          "text": "Perdi o numero"
+        }
+      ],
+      "description": "Caso não tenha numero de série"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "marcas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "marca",
+          "synonyms": [
+            "BMC",
+            "Caloi",
+            "Cannondale",
+            "Cervélo",
+            "Eddy Merckx",
+            "Focus",
+            "Giant",
+            "Oggi",
+            "Pinarrello",
+            "Scott",
+            "Sense",
+            "Soul Cycles",
+            "Specialized",
+            "Trek"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ModeloBike",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "modelo",
+          "synonyms": [
+            "bicicleta",
+            "bicicleta de passeio",
+            "bicleta",
+            "bike",
+            "bike dobrável",
+            "bike hibrida",
+            "bike normal",
+            "bike reclinada",
+            "bike trial",
+            "bike urbana",
+            "bmx",
+            "downhill",
+            "e-bicicleta",
+            "e-bike",
+            "estrada",
+            "mountain bike",
+            "speed"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "personalizacao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "mudei",
+          "synonyms": [
+            "aro",
+            "câmbio",
+            "canote",
+            "catraca",
+            "corrente",
+            "freio dianteiro",
+            "freios",
+            "freio traseiro",
+            "guidão",
+            "marcha",
+            "quadro",
+            "raio",
+            "rodas",
+            "selim"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "troquei",
+          "synonyms": [
+            "aro",
+            "câmbio",
+            "canote",
+            "catraca",
+            "corrente",
+            "freio dianteiro",
+            "freios",
+            "freio traseiro",
+            "guidão",
+            "marcha",
+            "quadro",
+            "raio",
+            "rodas",
+            "selim"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá somos a Porto, como poderíamos te ajudar?"
+              },
+              {
+                "text": "Em que posso te ajudar hoje?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi o que você quis dizer, pode tentar reformular a frase?"
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_9_1680556233595",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Número de série",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você personalizou (trocou) alguma peça da sua bicicleta?"
+              },
+              {
+                "text": "Fez alguma alteração na bicicleta?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#NumDeSerie",
+      "dialog_node": "node_2_1680555181152",
+      "previous_sibling": "node_3_1680616177119"
+    },
+    {
+      "type": "standard",
+      "title": "Modelo da bicicleta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, envie uma foto da sua bicicleta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ModeloDaBicicleta",
+      "dialog_node": "node_2_1680555779507",
+      "previous_sibling": "node_8_1680560913587"
+    },
+    {
+      "type": "standard",
+      "title": "Seguro Pergunta 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, qual o  modelo da sua bicicleta?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Pergunta1",
+      "dialog_node": "node_3_1680553902959",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Marcas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, envie uma foto da sua bicicleta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1680555779507",
+      "conditions": "@marcas",
+      "dialog_node": "node_3_1680559261997"
+    },
+    {
+      "type": "standard",
+      "title": "Modelo de Bike",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Informe o seu número de série."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ModeloDaBicicleta && @ModeloBike",
+      "dialog_node": "node_3_1680616177119",
+      "previous_sibling": "node_3_1680553902959"
+    },
+    {
+      "type": "standard",
+      "title": "Sem numero de serie",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Caso não informe o número de série da sua bicicleta, não podemos continuar com o procedimento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1680555181152",
+      "conditions": "#SemNumDeSerie",
+      "dialog_node": "node_3_1680693253248"
+    },
+    {
+      "type": "standard",
+      "title": "Validação da foto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo, aguarde um momento, estamos validando."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1680556888854"
+      },
+      "conditions": "#ProcessandoFoto",
+      "dialog_node": "node_4_1680556443829",
+      "previous_sibling": "node_2_1680555779507"
+    },
+    {
+      "type": "standard",
+      "title": "identificação",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Poderia nos enviar o comprovante?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Poderia nos enviar o comprovante?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1680555432093",
+      "conditions": "@personalizacao",
+      "dialog_node": "node_5_1680557449109"
+    },
+    {
+      "type": "standard",
+      "title": "Resposta sem numero de serie",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Caso não saiba onde encontrar, procure na base do quadro da bicicleta, por baixo do conjunto pedaleiro, no suporte do selim, e caso seja uma bicicleta elétrica procure por baixo da bateria."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1680555181152",
+      "conditions": "#RespSemNumSerie",
+      "dialog_node": "node_7_1680693355162",
+      "previous_sibling": "node_3_1680693253248"
+    },
+    {
+      "type": "standard",
+      "title": "Comprovante de compra",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Poderia enviar o comprovante de compra da peça alterada?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ComprovanteDeCompra",
+      "dialog_node": "node_8_1680555432093",
+      "previous_sibling": "node_2_1680555181152"
+    },
+    {
+      "type": "standard",
+      "title": "Sem alteração na bike",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, então envie uma foto do comprovante de sua bicicleta, de forma legível."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#NaoHouveAlteracao",
+      "dialog_node": "node_8_1680560913587",
+      "previous_sibling": "node_9_1680556742414"
+    },
+    {
+      "type": "standard",
+      "title": "Agradecimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Conte conosco, estaremos encerrando o atendimento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#agradecimento",
+      "dialog_node": "node_9_1680556233595",
+      "previous_sibling": "node_9_1680556888854"
+    },
+    {
+      "type": "standard",
+      "title": "Sem comprovante de compras",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O comprovante de compra é essencial, caso não o tenha não tem como justificar a compra. Infelizmente não podemos prosseguir sem ele."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#SemComprovante",
+      "dialog_node": "node_9_1680556742414",
+      "previous_sibling": "node_8_1680555432093"
+    },
+    {
+      "type": "standard",
+      "title": "Bicicleta validada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tudo certo, acesse essa página para prosseguir https://www.portoseguro.com.br/conteudo/seguros/bike/?utm_source=google&utm_medium=cpl&utm_campaign=vs_bike_seguro-bike_hq_gro_bike-branding_google-ads_bike-branding&utm_content=vs_bike_seguro-bike_hq_gro_bike-branding_google-ads_bike-branding_key_bike-branding_search_22ugr80321he&ref=search_r90321&gclid=EAIaIQobChMI9KuZksyS_gIVAu6RCh0Cvg-OEAAYASAAEgJzRPD_BwE."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "",
+      "dialog_node": "node_9_1680556888854",
+      "previous_sibling": "node_4_1680556443829"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "ChatBot - Porto-dialog"
+}

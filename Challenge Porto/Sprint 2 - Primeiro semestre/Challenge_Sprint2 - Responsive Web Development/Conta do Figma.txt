@@ -1,0 +1,14 @@
+Segue Login e senha do Figma conforme pedido.
+
+Login: rm551463@fiap.com.br
+Senha: challengefiap
+
+-------------------------------------------------
+
+Equipe:
+
+Felipe Morais - RM 551463
+João Cardoso - RM 552078
+Miguel Santos - RM 551640
+Eduardo Finardi - RM 98624
+Murilo Munari - RM 94164
