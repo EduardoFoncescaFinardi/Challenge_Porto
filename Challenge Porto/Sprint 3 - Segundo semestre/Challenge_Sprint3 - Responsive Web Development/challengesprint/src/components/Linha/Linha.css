@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul.separator {
+	list-style: none;
+	padding: 0;
+	width: 500px;
+}
+
+.line{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ul.separator li {
+	padding: 0;
+	border-bottom: 1px solid #CCC;
+}

@@ -1,0 +1,35 @@
+.footer{
+    background-color: #FFFEFB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.footer img{
+    width: 120px;
+    height: 65px;
+}
+
+@media (min-width: 425px) and (max-width: 767px){
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer p, .footer h3{
+        margin-top: 20px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 424px){
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer p, .footer h3{
+        margin-top: 20px;
+    }
+}

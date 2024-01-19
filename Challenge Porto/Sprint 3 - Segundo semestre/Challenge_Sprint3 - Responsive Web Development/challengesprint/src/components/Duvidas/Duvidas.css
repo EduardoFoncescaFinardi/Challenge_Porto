@@ -1,0 +1,110 @@
+.duvidas{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    min-height: 200px;
+    margin: 100px 0px;
+}
+
+.duvidas h3{
+    margin: 0px 0px 30px 450px;
+}
+
+details{
+    color: blue;
+}
+
+summary {
+    margin-left: 550px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+summary::marker{    
+    color: #fff;
+    
+}
+
+
+details p{
+    margin-left: 550px;
+    margin-bottom: 10px;
+    width: 900px;
+    color: black;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .sumarry {
+        margin-left: 250px;
+    }
+    .duvidas h3 {
+        margin-left: 150px;
+    }
+
+    .duvidas p{
+        margin-left: 200px;
+        width: 550px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px){
+
+    .duvidas{
+        padding: 0px 40px;
+        margin: 0px;
+    }
+
+    .sumarry {
+        margin-left: 0px;
+        margin:30px 0px 30px 50px;
+    }
+    .duvidas h3 {
+        margin:30px 0px 0px 50px;
+    }
+
+    .duvidas p {
+        margin-left: 0px;
+        width: 350px;
+    }   
+}
+
+@media (min-width: 320px) and (max-width: 424px){
+    .duvidas{
+        padding: 0px 0px;
+        width: 300px;
+        margin: 0px;
+    }
+
+    .sumarry {
+        margin-left: 0px;
+        margin:30px 0px 30px 50px;
+    }
+    .duvidas h3 {
+        margin:30px 0px 0px 50px;
+    }
+
+    .duvidas p {
+        margin-left: 0px;
+        width: 300px;
+    }   
+
+    
+}
+
+@media (min-width: 1025px) and (max-width: 1439px){
+    .duvidas p {
+        margin-left: 420px;
+        width: 450px;
+    }   
+
+    .sumarry {
+        margin-left: 400px;
+        
+    }
+    .duvidas h3 {
+        margin-left: 300px;
+    }
+
+}
+

@@ -1,0 +1,74 @@
+.container-sac{
+    font-family: sans-serif;
+}
+
+.ti-sac{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.duvidas-sac{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:  50px 0px;
+}
+
+.pgt-sac{
+    margin: 15px;
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: none;
+    border-radius: 50px;
+    background: #f2f2f2;
+    box-shadow:  13px 13px 26px #dfdfdf,
+                 -13px -13px 26px #ffffff;
+}
+
+.pgt-sac p{
+    margin-left: 20px;
+}
+
+article p{
+    margin-left: 0px;
+}
+
+@media (min-width: 1140px) and (max-width: 1919px){
+    .pgt-sac{
+        width: 350px;
+    }
+}
+
+@media (min-width: 924px) and (max-width: 1139px){
+    .pgt-sac{
+        width: 280px;
+    }
+}
+
+@media (min-width: 835px) and (max-width: 923px){
+    .pgt-sac{
+        width: 250px;
+    }
+}
+@media (min-width: 320px) and (max-width: 834px){
+    .duvidas-sac{
+        flex-direction: column;
+        margin: 0px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 530px){
+    .pgt-sac{
+        width: 380px;
+    }
+}
+@media (min-width: 320px) and (max-width: 415px){
+    .pgt-sac{
+        width: 280px;
+    }
+}

@@ -1,0 +1,87 @@
+.ds-perguntas{
+    border: 1px solid rgb(230, 230, 230);
+    width: 700px;
+    height: 60px;
+    border-radius: 7px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 5px;
+}
+
+.ds-perguntas p{
+    margin: 5px 0px 0px 5px;
+}
+
+.ds-perguntas h3 span{
+    color: #2196F3;    
+}
+
+.ds-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bike-parking img{
+    width: 500px;
+}
+
+@media (min-width: 900px) and (max-width: 1245px){
+    .bike-parking img{
+        width: 350px;
+    }
+
+    .ds-perguntas{
+        width: 500px;
+        height: 40px;
+        font-size: 10px;
+    }
+}
+@media (min-width: 835px) and (max-width: 899px){
+    .bike-parking img{
+        width: 300px;
+    }
+
+    .ds-perguntas{
+        width: 350px;
+        height: 40px;
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 834px){
+    .ds-container{
+        flex-direction: column;
+    }
+}
+@media (min-width: 320px) and (max-width: 729px){
+    .ds-perguntas{
+        width: 550px;
+        font-size: 15px;
+    }
+}
+@media (min-width: 320px) and (max-width: 590px){
+    .ds-perguntas{
+        width: 420px;
+        font-size: 13px;
+    }
+}
+@media (max-width: 450px){
+    .ds-perguntas{
+        width: 340px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 385px){
+    .ds-perguntas{
+        width: 280px;
+        font-size: 11px;
+    }
+}
+@media (max-width: 525px){
+    .bike-parking img{
+        width: 350px;
+    }
+}
