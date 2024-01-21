@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Upload de Imagem</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .blue-background {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .center-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        input[type="file"] {
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #2980b9;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        input[type="file"]:hover {
+            background-color: #1c6da8;
+        }
+
+        .center-button {
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #2980b9;
+            color: #fff;
+        }
+
+        .center-button:hover {
+            background-color: #1c6da8;
+        }
+
+        .center-results {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .center-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+        
+        .footer-text {
+            margin: 0;
+        }
+    </style>
+</head>
+<body class="blue-background">
+    <header>
+        <h1>Upload de Imagem</h1>
+    </header>
+    {% if message %}
+        <p class="result-message">{{ message }}</p>
+    {% endif %}
+    <form method="post" enctype="multipart/form-data" class="center-form">
+        <input type="file" name="file">
+        <input type="submit" value="Enviar" class="center-button">
+    </form>
+    {% if encoded_image %}
+        <section class="center-results">
+            <h2>Imagem Enviada:</h2>
+            <img src="data:image/jpeg;base64,{{ encoded_image }}" alt="Imagem Enviada" class="center-image">
+            {% if predicted_class and confidence_score %}
+                <p>Classe: {{ predicted_class }}</p>
+                <p>Pontuação de Confiança: {{ confidence_score }}%</p>
+            {% endif %}
+        </section>
+    {% endif %}
+</body>
+</html>
