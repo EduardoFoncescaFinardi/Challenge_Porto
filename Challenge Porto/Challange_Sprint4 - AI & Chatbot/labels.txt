@@ -1,8 +1,0 @@
-0 Bicicleta Inteira
-1 Cambio
-2 Suspensao
-3 Cassete
-4 Guidao
-5 Quadro
-6 Rodas
-7 Selim
