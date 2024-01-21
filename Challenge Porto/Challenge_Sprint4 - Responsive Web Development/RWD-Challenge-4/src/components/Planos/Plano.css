@@ -1,0 +1,115 @@
+.planos{
+    background-color: #FFFDFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    flex-direction: row;
+}
+
+.img-bike{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin-right: 100px;
+}
+
+.biketravel{
+    width: 100%;
+}
+
+.container-planos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.container-box {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    background-color: #60b2ff48;
+    margin-bottom: 5px;
+    
+}
+
+.container-box input{
+    width: 50px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+.container-box h2{
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.box-action{
+    width: 300px;
+    height: 50px;
+    background-color: #0073df;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+}
+
+
+.descricao {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+    width: 300px;
+}
+
+
+.descricao.show {
+    height: auto;
+    padding: 5px 0;
+}
+
+@media (min-width: 425px) and (max-width: 767px){
+
+    .img-bike{
+        width: 425px;
+        width: 400px;
+    }
+
+    .planos{
+        flex-direction: column;
+    }
+
+    .img-bike{
+
+        margin-right: 0px;
+    }
+
+    .box-action{
+        margin-bottom: 50px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 424px){
+    .img-bike{
+        width: 425px;
+        width: 315px;
+    }
+
+    .box-action{
+        margin-bottom: 40px;
+    }
+    
+    
+}
+
+
